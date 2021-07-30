@@ -1,21 +1,37 @@
 ## WAF - Azure Monitor Scoping
 ### Post Discovery scoping 
-•	What is your current infrastructure in Azure?
+* What is your current infrastructure in Azure?
 * Where is the logging going?
 * Are there multiple log analytics workspaces?
-* what applicaion is going to be identified as part of the WAF assessment? (this is an intergral question for the scoping of this workshop becuase certain services have certain requirements in order to monitor them, especially if considering using Insights)
+* What applicaion is going to be identified as part of the WAF assessment? (This is an intergral question for the scoping of this workshop becuase certain services have certain requirements in order to monitor them, especially if considering using Insights)
     * If monitoring VMs:
-        * do they have VMs set up they want to monitor?
-        * what OS?
-        * are they custom, migrated, out of box?
-        *
+        * Do you have VMs set up they want to monitor?
+        * What OS?
+            * This will determine the monitoing agent you will use;
+            * Log Analytics agent
+            * Dependency agent
+            * Azure Diagnostic agent
+            * Telegraf agent
+            * 
+        * Are they custom, migrated, out of box?
+        * What type of data do you want to collect?
+        
     * If monitoring containers:
-        * do they containers set up to monitor?
+        * Do they containers set up to monitor?
+        * If so where are their containers orchestrated? This will determine what solutions to utilize.
+            * Docker Swarm 
+            * DC/OS
+            * Kubernetes
+            * Service Fabric
+            * Red Hat OpenShift
+            
     * If Load Balancers:
         * Do they have load balancers that are set up to monitor?
-        * what SKU are they?
+        * What SKU are they? Basic or Standard?
+        * Are there health probe in place?
+        * Do they need to be at certain availbility? This gets more into alerting.
 
-•	On premises workloads monitoring?
+* On premises workloads monitoring?
 * Azure workloads monitoring?
 * 3rd party cloud monitoring?
 * What capabilities are you looking to add, and/or
