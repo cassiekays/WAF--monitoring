@@ -1,5 +1,8 @@
 ## WAF - Azure Monitor Scoping
 ### Post Discovery scoping 
+* Has the customer previously done a Well Architechted Framework engagement?
+   * If not, then the technical resource will need to complete the SLA pathwise analysis module.
+   * Similarly, they will need to complete the failure mode analysis module as well.
 * What is your current infrastructure in Azure?
 * Where is the logging going?
 * Are there multiple log analytics workspaces?
@@ -40,7 +43,10 @@
 
 ## Three pillars of focus 
 ### Monitor your applications   
-    - application insights
+    - Application insights
+    - Virtual Machines
+    - Networking
+    - Applications
 
 ### Monitor your infrastructure
     - Microsoft Monitoring Agent (MMA)
@@ -52,5 +58,3 @@
     - network watcher
     - connection watcher
     - expressroute
-
-### important questions to ask
