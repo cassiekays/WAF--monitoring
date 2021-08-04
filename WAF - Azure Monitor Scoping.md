@@ -1,6 +1,6 @@
 ## WAF - Azure Monitor Scoping
 ### Post Discovery scoping 
-* Has the customer previously done a Well Architechted Framework engagement?
+* Has the customer previously done a Well-Architechted Assessment?
    * If not, then the technical resource will need to complete the SLA pathwise analysis module.
    * Similarly, they will need to complete the failure mode analysis module as well.
 * What is your current infrastructure in Azure?
@@ -15,12 +15,11 @@
             * Dependency agent
             * Azure Diagnostic agent
             * Telegraf agent
-            * 
         * Are they custom, migrated, out of box?
         * What type of data do you want to collect?
         
-    * If monitoring containers:
-        * Do they containers set up to monitor?
+    * If the customer is using containers:
+        * Have the customer's containers been configured for monitoring?
         * If so where are their containers orchestrated? This will determine what solutions to utilize.
             * Docker Swarm 
             * DC/OS
@@ -34,10 +33,10 @@
         * Are there health probe in place?
         * Do they need to be at certain availbility? This gets more into alerting.
 
-* On premises workloads monitoring?
+* On-premises workloads monitoring?
 * Azure workloads monitoring?
 * 3rd party cloud monitoring?
-* What capabilities are you looking to add, and/or
+* What monitoring capabilities does the customer want to add?
 * What problems are you looking to solve?
     * Can Azure policy be used to deploy against whats currently in place?
 
