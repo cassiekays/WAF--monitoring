@@ -34,7 +34,7 @@ Where is the log data being sent?
 How many Log Analytics Workspaces does the customer have?
 
 Which applicaion is going to be identified as part of the Well-Architechted Assessment? 
-    * This is an intergral question for the scoping of this workshop becuase certain services have certain requirements in order to monitor them, especially if considering using Insights)
+ * This is an intergral question for the scoping of this workshop becuase some services have certain requirements in order to monitor them, especially if considering using Insights.
     
 What monitoring capabilities does the customer want to add?
 
