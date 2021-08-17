@@ -35,6 +35,7 @@ How many Log Analytics Workspaces does the customer have?
 
 Which applicaion is going to be identified as part of the Well-Architechted Assessment? 
     * This is an intergral question for the scoping of this workshop becuase certain services have certain requirements in order to monitor them, especially if considering using Insights)
+    
 What monitoring capabilities does the customer want to add?
 
 What problems is the customer looking to solve?
