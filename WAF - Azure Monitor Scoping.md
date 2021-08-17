@@ -1,4 +1,4 @@
-## WAF - Azure Monitor Scoping
+# Well-Architechted Framework - Azure Monitor Scoping Documentation
 
 ## Three pillars of focus 
 ### Monitor Applications   
