@@ -22,23 +22,23 @@
 Below is the information that needs to be collected about the customer.
 
 ### Preliminary Questions
-* Has the customer previously done a Well-Architechted Assessment?
+Has the customer previously done a Well-Architechted Assessment?
    * If not, then the technical resource will need to complete the SLA pathwise analysis module.
    * Similarly, they will need to complete the failure mode analysis module as well.
 ### General Infrastructure Questions
-* What is the customers current infrastructure in Azure?
-* Where is the log data being sent?
-* How many Log Analytics Workspaces does the customer have?
-* Which applicaion is going to be identified as part of the Well-Architechted Assessment? (
+What is the customers current infrastructure in Azure?
+Where is the log data being sent?
+How many Log Analytics Workspaces does the customer have?
+Which applicaion is going to be identified as part of the Well-Architechted Assessment? (
     * This is an intergral question for the scoping of this workshop becuase certain services have certain requirements in order to monitor them, especially if considering using Insights)
-* What monitoring capabilities does the customer want to add?
-* What problems is the customer looking to solve?
+What monitoring capabilities does the customer want to add?
+What problems is the customer looking to solve?
     * Can Azure policy be used to deploy against whats currently in place?
-* Does the customer have any monitoring pain points?
-* What monitoring is currently being done in the customers enviroment, if any?
-      * On-premises workloads monitoring?
-      * Azure workloads monitoring?
-      * 3rd party cloud monitoring?
+Does the customer have any monitoring pain points?
+What monitoring is currently being done in the customers enviroment, if any?
+     * On-premises workloads monitoring?
+     * Azure workloads monitoring?
+     * 3rd party cloud monitoring?
 
     * If monitoring VMs:
         * Do you have VMs set up they want to monitor?
