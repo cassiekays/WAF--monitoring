@@ -1,22 +1,25 @@
 ## WAF - Azure Monitor Scoping
 
 ## Three pillars of focus 
-### Monitor your applications   
+### Monitor Applications   
     - Application insights
     - Virtual Machines
     - Networking
     - Applications
 
-### Monitor your infrastructure
-    - Microsoft Monitoring Agent (MMA)
-    - System Center Operations Manager (SCOM)
-    - DataFlux Telegraph
-    - OMS 
-### Monitor your network
-    - network insights
-    - network watcher
-    - connection watcher
-    - expressroute
+### Monitor Infrastructure
+    - Log Analytics 
+    - Monitoring Agents 
+        - Microsoft Monitoring Agent (MMA)
+        - System Center Operations Manager (SCOM)
+        - DataFlux Telegraph
+        - OMS 
+### Monitor Network
+    - Network Insights
+    - Network Watcher
+        - Connection Monitor
+    - ExpressRoute
+    - Application Gateway
 
 ## Post-Discovery Scoping 
 Below is the information that needs to be collected about the customer.
